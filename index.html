@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Helio Pet Device</title>
+        <link
+            rel="shortcut icon"
+            href="./assets/logo.svg"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="./assets/logo.svg" alt="Helio Pet" class="logo-img" />
+                <span class="logo-text"
+                    >helio <span>pet</span><sup>®</sup></span
+                >
+            </div>
+            <div class="navbar__links">
+                <a href="#">Shop <span class="arrow">&#9660;</span></a>
+                <a href="#">Our Story</a>
+                <a href="#">Science <span class="arrow">&#9660;</span></a>
+                <a href="#">Results</a>
+            </div>
+            <div class="navbar__actions">
+                <span class="lang">ENG <span class="arrow">&#9650;</span></span>
+                <span class="currency"
+                    >USD <span class="arrow">&#9650;</span></span
+                >
+                <span class="divider"></span>
+                <span class="cart">
+                    <svg
+                        class="cart-icon"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="#202E52"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        onclick="window.open('https://www.rongbaz.com.au/products/khepsi?variant=48052666630390',
+                        '_blank')"
+                        <circle cx="9" cy="21" r="1" />
+                        <circle cx="20" cy="21" r="1" />
+                        <path
+                            d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+                        />
+                    </svg>
+                    <span class="cart-badge">2</span>
+                </span>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Hero/Product Section -->
+            <section class="hero">
+                <div class="hero__gallery">
+                    <img
+                        src="./project1-1.png"
+                        alt="Helio Pet Device in use"
+                        class="hero__main-img"
+                    />
+                    <div class="hero__thumbs">
+                        <img src="./image11.png" alt="Gallery 1" />
+                        <img src="./image12.jpg" alt="Gallery 2" />
+                        <img src="./image13.png" alt="Gallery 3" />
+                        <img src="./image14.png" alt="Gallery 4" />
+                    </div>
+                </div>
+                <div class="hero__info">
+                    <div class="badge">Best Seller</div>
+                    <div class="rating-row">
+                        <span class="stars">★</span>
+                        <span class="stars">★</span>
+                        <span class="stars">★</span>
+                        <span class="stars">★</span>
+                        <span class="stars">★</span>
+                        <span class="rating-score">4.9</span>
+                        <span class="review-count">(1,021 reviews)</span>
+                    </div>
+                    <h1>Helio Pet Device™</h1>
+                    <div class="testimonial-box">
+                        <img
+                            src="./image6.jpg"
+                            alt="Reviewer"
+                            class="testimonial-avatar"
+                        />
+                        <div class="testimonial-text">
+                            "We are BOTH so THANKFUL! I purchased this for my 12
+                            year old Lab mix as he's got mobility issues with
+                            the back legs. It's been 3 weeks and already a
+                            difference!"
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li>✔️ Reduce aches & pains with 5-minute sessions.</li>
+                        <li>
+                            ✔️ Cold Laser Therapy helps with Pain, Inflammation
+                            & more.
+                        </li>
+                        <li>✔️ Professional Grade LLLT with 5 Laser Diodes.</li>
+                    </ul>
+                    <div class="price-row">
+                        <span class="old-price">$369.00</span>
+                        <span class="new-price" id="main-total-price"
+                            >$249.00</span
+                        >
+                    </div>
+                    <div class="cart-row">
+                        <button class="add-to-cart" id="add-to-cart-btn">
+                            Add to Cart
+                        </button>
+                        <button class="qty-btn" id="main-decrease">-</button>
+                        <input
+                            type="number"
+                            id="qty"
+                            value="1"
+                            min="1"
+                            max="10"
+                            title="Quantity"
+                            readonly
+                        />
+                        <button class="qty-btn" id="main-increase">+</button>
+                    </div>
+                    <div class="payment-icons">
+                        <img src="./amex.jpg" alt="Amex" />
+                        <img src="visa.png" alt="Visa" />
+                        <img src="paypal.png" alt="Paypal" />
+                        <img src="./mastered.png" alt="Mastercard" />
+                        <img src="discover.png" alt="Discover" />
+                        <img src="./afterpay.png" alt="ShopPay" />
+                    </div>
+                    <div class="info-row">
+                        <span class="guarantee"
+                            ><span class="blue">30 day money back</span>
+                            guarantee</span
+                        >
+                        <span class="delivery"
+                            ><span class="gray">Expected</span>
+                            <span class="blue">delivery in 2-4</span>
+                            <span class="gray">business days</span></span
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pro Grade Section -->
+            <section class="pro-grade-section">
+                <div class="pro-grade-bg"></div>
+                <div class="pro-grade-content">
+                    <h2>Professional Grade,<br />Patented Design.</h2>
+                    <p>
+                        It's required to have a
+                        <span class="green-text">strong enough output</span>
+                        power of 3-10 Joules per cm<sup>2</sup> with correct
+                        wavelengths (660nm + 850nm).
+                    </p>
+                    <div class="feature-block">
+                        <span class="feature-number">1</span>
+                        <span>
+                            The treatment head is 340% bigger so it
+                            <b
+                                >can finish a treatment in
+                                <span class="green-text">3 minutes</span></b
+                            >, vs 10–20 minutes.
+                        </span>
+                        <span class="feature-label">800% More Power</span>
+                    </div>
+                    <div class="feature-block">
+                        <span class="feature-number">2</span>
+                        <span>
+                            Has <b class="green-text">3 Modes of Power</b> to
+                            accommodate to any area. It also uses wavelengths
+                            660nm and 850nm.
+                        </span>
+                        <span class="feature-label">3 Minutes</span>
+                    </div>
+                </div>
+                <div class="pro-grade-image-col">
+                    <img
+                        src="./frontend-image.png"
+                        alt="Device"
+                        class="pro-grade-device"
+                    />
+                </div>
+            </section>
+
+            <!-- Verified Review Section -->
+            <section class="verified-review-section">
+                <div class="verified-header">
+                    <h2>Verified Reviews.</h2>
+                </div>
+                <div class="verified-summary">
+                    <div class="verified-rating">
+                        <span class="verified-score">4.8</span>
+                        <span class="verified-stars">★★★★★</span>
+                        <span class="verified-count">Based on 480 Reviews</span>
+                    </div>
+                    <div class="verified-bars">
+                        <div class="bar-row">
+                            <span>5 stars</span>
+                            <div class="bar bar-5"></div>
+                            <span>427</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>4 stars</span>
+                            <div class="bar bar-4"></div>
+                            <span>35</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>3 stars</span>
+                            <div class="bar bar-3"></div>
+                            <span>9</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>2 stars</span>
+                            <div class="bar bar-2"></div>
+                            <span>3</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>1 star</span>
+                            <div class="bar bar-1"></div>
+                            <span>6</span>
+                        </div>
+                    </div>
+                    <div class="verified-thumbs">
+                        <img
+                            src="https://www.rongbaz.com.au/cdn/shop/files/Pepsi_adult_navy.webp?v=1743120506&width=1680"
+                            alt="Review 1"
+                        />
+                        <img
+                            src="https://www.rongbaz.com.au/cdn/shop/files/Pepsi_adult_navy.webp?v=1743120506&width=1680"
+                            alt="Review 2"
+                        />
+                        <img
+                            src="https://www.rongbaz.com.au/cdn/shop/files/Pepsi_adult_navy.webp?v=1743120506&width=1680"
+                            alt="Review 3"
+                        />
+                        <img
+                            src="https://www.rongbaz.com.au/cdn/shop/files/Pepsi_adult_navy.webp?v=1743120506&width=1680"
+                            alt="Review 4"
+                        />
+                        <img
+                            src="https://www.rongbaz.com.au/cdn/shop/files/Pepsi_adult_navy.webp?v=1743120506&width=1680"
+                            alt="Review 5"
+                        />
+                        <img
+                            src="https://www.rongbaz.com.au/cdn/shop/files/Pepsi_adult_navy.webp?v=1743120506&width=1680"
+                            alt="Review 6"
+                        />
+                        <img
+                            src="https://www.rongbaz.com.au/cdn/shop/files/Pepsi_adult_navy.webp?v=1743120506&width=1680"
+                            alt="Review 7"
+                        />
+                        <img
+                            src="https://www.rongbaz.com.au/cdn/shop/files/Pepsi_adult_navy.webp?v=1743120506&width=1680"
+                            alt="Review 8"
+                        />
+                    </div>
+                </div>
+                <div class="verified-review-list">
+                    <div class="review-card">
+                        <div class="review-user">
+                            <span class="review-avatar">RC</span>
+                            <span class="review-name"
+                                >Rizalinda C.
+                                <span class="verified-badge"
+                                    >Verified Buyer</span
+                                ></span
+                            >
+                            <span class="review-country">United States</span>
+                        </div>
+                        <div class="review-stars">★★★★★</div>
+                        <div class="review-title">Excellent product</div>
+                        <div class="review-text">
+                            It works for me and my hubby and my 23 year old
+                            chihuahua
+                        </div>
+                        <img
+                            src="./image11.png"
+                            alt="Review photo"
+                            class="review-photo"
+                        />
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Cart Dialog -->
+        <div id="cart-dialog" class="cart-dialog">
+            <div class="cart-dialog-content">
+                <button class="cart-dialog-close" id="cart-dialog-close">
+                    &times;
+                </button>
+                <h3>Your Cart</h3>
+                <div class="cart-dialog-product">
+                    <img
+                        src="https://www.rongbaz.com.au/cdn/shop/files/Pepsi_adult_navy.webp?v=1743120506&width=1680"
+                        alt="Helio Pet Device"
+                        class="cart-dialog-img"
+                    />
+                    <div class="cart-dialog-details">
+                        <span class="cart-dialog-title">Helio Pet Device™</span>
+                        <span class="cart-dialog-unit-price">$249.00 each</span>
+                    </div>
+                </div>
+                <div class="cart-dialog-row">
+                    <span>Quantity</span>
+                    <div class="cart-dialog-qty">
+                        <button id="cart-dialog-decrease">-</button>
+                        <input
+                            type="number"
+                            id="cart-dialog-qty-input"
+                            min="1"
+                            max="10"
+                            value="1"
+                            readonly
+                            title="Cart quantity (1-10)"
+                        />
+                        <button id="cart-dialog-increase">+</button>
+                    </div>
+                </div>
+                <div class="cart-dialog-total">
+                    <span>Total:</span>
+                    <span id="cart-dialog-total-price">$249.00</span>
+                </div>
+                <div class="cart-dialog-actions">
+                    <button id="cart-dialog-save" class="add-to-cart">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

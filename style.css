@@ -639,6 +639,334 @@ h1 {
     padding: 0.3rem;
     background: #fff;
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .hero,
+    .pro-grade-section,
+    .verified-review-section {
+        max-width: 98vw;
+        padding: 2rem 1rem;
+    }
+    .hero__info {
+        margin-left: 1rem;
+    }
+    .pro-grade-content {
+        padding-left: 0.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero,
+    .pro-grade-section,
+    .verified-review-section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .hero__gallery,
+    .hero__info,
+    .pro-grade-content,
+    .pro-grade-image-col {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .pro-grade-section {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 1rem;
+        gap: 0.7rem;
+    }
+    .navbar__links {
+        gap: 1.2rem;
+        margin: 0.5rem 0;
+        flex-wrap: wrap;
+    }
+    .navbar__actions {
+        gap: 0.7rem;
+    }
+    .hero {
+        flex-direction: column;
+        padding: 1.2rem 0.7rem;
+        gap: 1.5rem;
+    }
+    .hero__gallery,
+    .hero__info {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .hero__main-img {
+        max-width: 100%;
+        height: 220px;
+    }
+    .hero__thumbs img {
+        width: 48px;
+        height: 38px;
+    }
+    .pro-grade-section {
+        flex-direction: column;
+        padding: 1.2rem 0.7rem;
+        min-height: unset;
+        gap: 1.5rem;
+    }
+    .pro-grade-content {
+        padding: 0.5rem 0;
+    }
+    .pro-grade-image-col {
+        min-width: 160px;
+        min-height: 160px;
+    }
+    .pro-grade-device {
+        max-width: 180px;
+    }
+    .verified-review-section {
+        padding: 1.2rem 0.7rem;
+    }
+    .verified-header h2 {
+        font-size: 1.4rem;
+    }
+    .verified-summary {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .verified-bars {
+        min-width: 120px;
+    }
+    .review-card {
+        padding: 1rem;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.98rem;
+    }
+    .navbar {
+        padding: 0.7rem 0.5rem;
+    }
+    .logo-img {
+        height: 24px;
+    }
+    .logo-text {
+        font-size: 1.1rem;
+    }
+    .navbar__links a {
+        font-size: 0.98rem;
+    }
+    .hero {
+        padding: 0.7rem 0.2rem;
+        gap: 1rem;
+    }
+    .hero__main-img {
+        height: 140px;
+        border-radius: 8px;
+    }
+    .hero__thumbs img {
+        width: 36px;
+        height: 28px;
+        border-radius: 4px;
+    }
+    .hero__info {
+        gap: 0.7rem;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    .badge {
+        font-size: 0.9rem;
+        padding: 0.2rem 0.7rem;
+    }
+    .testimonial-box {
+        padding: 0.5rem;
+        gap: 0.4rem;
+    }
+    .testimonial-avatar {
+        width: 28px;
+        height: 28px;
+    }
+    .features-list li {
+        font-size: 0.98rem;
+        padding-bottom: 0.2rem;
+    }
+    .price-row {
+        font-size: 1.1rem;
+        gap: 0.7rem;
+    }
+    .old-price {
+        font-size: 1rem;
+    }
+    .new-price {
+        font-size: 1.2rem;
+    }
+    .add-to-cart {
+        padding: 0.5rem 1.2rem;
+        font-size: 1rem;
+        border-radius: 6px;
+    }
+    .qty-btn {
+        width: 28px;
+        height: 28px;
+        font-size: 1rem;
+        border-radius: 6px;
+    }
+    #qty {
+        width: 36px;
+        font-size: 0.98rem;
+        border-radius: 4px;
+        padding: 0.2rem;
+    }
+    .payment-icons img {
+        height: 18px;
+    }
+    .pro-grade-section {
+        padding: 0.7rem 0.2rem;
+        border-radius: 10px;
+    }
+    .pro-grade-content h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.7rem;
+    }
+    .pro-grade-content p {
+        font-size: 0.98rem;
+        margin-bottom: 1rem;
+    }
+    .feature-block {
+        font-size: 0.98rem;
+        gap: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+    .feature-number {
+        width: 1.4rem;
+        height: 1.4rem;
+        font-size: 0.9rem;
+    }
+    .feature-label {
+        padding: 0.3rem 0.7rem;
+        font-size: 0.9rem;
+        margin-left: 0.7rem;
+    }
+    .pro-grade-image-col {
+        min-width: 80px;
+        min-height: 80px;
+    }
+    .pro-grade-device {
+        max-width: 90px;
+    }
+    .verified-review-section {
+        padding: 0.7rem 0.2rem;
+        border-radius: 10px;
+    }
+    .verified-header h2 {
+        font-size: 1.1rem;
+        margin-bottom: 0.7rem;
+    }
+    .verified-summary {
+        gap: 0.5rem;
+    }
+    .verified-rating {
+        min-width: 90px;
+    }
+    .verified-score {
+        font-size: 1.1rem;
+    }
+    .verified-stars {
+        font-size: 0.9rem;
+    }
+    .verified-count {
+        font-size: 0.8rem;
+    }
+    .verified-bars {
+        min-width: 60px;
+    }
+    .bar-row {
+        font-size: 0.9rem;
+        gap: 0.3rem;
+    }
+    .bar {
+        height: 6px;
+        border-radius: 3px;
+        margin: 0 0.2rem;
+    }
+    .verified-thumbs img {
+        width: 32px;
+        height: 24px;
+        border-radius: 3px;
+    }
+    .review-card {
+        padding: 0.5rem;
+        border-radius: 7px;
+    }
+    .review-user {
+        gap: 0.5rem;
+    }
+    .review-avatar {
+        width: 22px;
+        height: 22px;
+        font-size: 0.8rem;
+    }
+    .review-name {
+        font-size: 0.98rem;
+    }
+    .verified-badge {
+        font-size: 0.7rem;
+        padding: 1px 5px;
+        margin-left: 0.2rem;
+    }
+    .review-country {
+        font-size: 0.8rem;
+    }
+    .review-stars {
+        font-size: 0.9rem;
+    }
+    .review-title {
+        font-size: 0.98rem;
+    }
+    .review-photo {
+        width: 48px;
+        height: 36px;
+        border-radius: 4px;
+    }
+    .cart-dialog {
+        width: 100vw;
+        right: -100vw;
+        border-radius: 0;
+    }
+    .cart-dialog-content {
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
+    }
+    .cart-dialog-img {
+        width: 36px;
+        height: 36px;
+        border-radius: 4px;
+    }
+    .cart-dialog h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .cart-dialog-row {
+        font-size: 0.98rem;
+        margin-bottom: 1rem;
+    }
+    .cart-dialog-qty button {
+        width: 28px;
+        height: 28px;
+        font-size: 1rem;
+        border-radius: 6px;
+    }
+    #cart-dialog-qty-input {
+        width: 36px;
+        font-size: 0.98rem;
+        border-radius: 4px;
+        padding: 0.2rem;
+    }
+}
+
 .cart-dialog-actions {
     margin-top: auto;
     display: flex;
